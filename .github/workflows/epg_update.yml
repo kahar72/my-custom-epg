@@ -1,0 +1,29 @@
+name: Daily EPG Generator
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Runs daily at 2:00 AM UTC
+  workflow_dispatch: # Allows manual trigger anytime
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run EPG Generator
+        env:
+          PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
+        run: python generate_epg.py
+
+      - name: Deploy to GitHub Pages / Commit File
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Automated EPG Update"
+          file_pattern: "epg.xml.gz"
