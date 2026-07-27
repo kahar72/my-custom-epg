@@ -1,3 +1,4 @@
+
 name: Daily EPG Generator
 
 on:
@@ -18,8 +19,6 @@ jobs:
           python-version: '3.x'
 
       - name: Run EPG Generator
-        env:
-          PLAYLIST_URL: ${{ secrets.PLAYLIST_URL }}
         run: python generate_epg.py
 
       - name: Deploy to GitHub Pages / Commit File
