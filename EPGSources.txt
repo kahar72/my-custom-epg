@@ -1,4 +1,10 @@
 https://raw.githubusercontent.com/dbghelp/StarHub-TV-EPG/refs/heads/main/starhub.xml
 https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/unifitv.xml,UTV-
 https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/epg.xml
-https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz
