@@ -4,7 +4,7 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 
-# 1. Fetch playlist from secret
+# Fetch playlist from secret
 PLAYLIST_URL = os.environ.get("PLAYLIST_URL")
 
 # EPG Sources — Only UnifiTV gets the "unifitv." prefix
