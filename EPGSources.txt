@@ -10,3 +10,4 @@ https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz,ID-
