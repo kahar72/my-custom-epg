@@ -95,7 +95,7 @@ def main():
 
     # Export compressed XMLTV file
     output_xml = ET.tostring(out_root, encoding='utf-8', xml_declaration=True)
-    with gzip.open('epg.xml.gz', 'wb') as f:
+    with gzip.open('custom_guide.xml.gz', 'wb') as f:
         f.write(output_xml)
     print("EPG generation complete: epg.xml.gz created.")
 
