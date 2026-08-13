@@ -3,9 +3,8 @@ name: Daily EPG Generator
 on:
   schedule:
     - cron: '0 2 * * *' # Runs daily at 2:00 AM UTC
-  workflow_dispatch: # Allows manual trigger anytime
+  workflow_dispatch: # Allows manual execution anytime
 
-# Grant explicit write permission to save the generated epg.xml.gz
 permissions:
   contents: write
 
@@ -13,7 +12,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Generator Repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -24,8 +23,18 @@ jobs:
       - name: Run EPG Generator
         run: python generate_epg.py
 
-      - name: Commit and Push EPG File
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Checkout Destination Repo
+        uses: actions/checkout@v4
         with:
-          commit_message: "Automated EPG Update"
-          file_pattern: "epg.xml.gz"
+          repository: 'kahar72/my-epg-project'
+          token: ${{ secrets.DEST_REPO_PAT }}
+          path: 'dest_repo'
+
+      - name: Move file and Push to Destination Repo
+        run: |
+          cp custom_guide.xml.gz dest_repo/
+          cd dest_repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add custom_guide.xml.gz
+          git diff-index --quiet HEAD || (git commit -m "Automated EPG Update: custom_guide.xml.gz" && git push)
