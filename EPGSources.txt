@@ -15,3 +15,4 @@ https://www.open-epg.com/files/indonesia.xml.gz,ID-
 https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz
 https://www.open-epg.com/files/qatar1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
