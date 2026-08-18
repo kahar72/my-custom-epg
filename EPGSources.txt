@@ -18,3 +18,4 @@ https://www.open-epg.com/files/qatar1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz
+https://www.open-epg.com/files/uruguay.xml.gz
