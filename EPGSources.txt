@@ -19,5 +19,5 @@ https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz
-https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz
+https://www.open-epg.com/files/romania1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz
