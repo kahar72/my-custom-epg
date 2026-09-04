@@ -2,6 +2,7 @@ https://www.open-epg.com/files/singapore2.xml.gz
 https://www.open-epg.com/files/singapore3.xml.gz
 https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/unifitv.xml,UTV-
 https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/epg.xml
+https://walpak1.github.io/epg/my.xml
 https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz
