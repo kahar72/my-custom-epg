@@ -22,3 +22,4 @@ https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz
 https://www.open-epg.com/files/romania1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz
+https://www.open-epg.com/files/russia1.xml.gz
