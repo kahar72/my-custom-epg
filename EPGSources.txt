@@ -13,13 +13,10 @@ https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz
 https://www.open-epg.com/files/indonesia.xml.gz,ID-
 https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz
-https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz
-https://www.open-epg.com/files/romania1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz
-https://www.open-epg.com/files/russia1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz
