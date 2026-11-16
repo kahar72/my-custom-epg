@@ -23,3 +23,4 @@ https://epgshare01.online/epgshare01/epg_ripper_AE1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_DIRECTVSPORTS1.xml.gz
 https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz
+https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz
